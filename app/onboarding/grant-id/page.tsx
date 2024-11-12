@@ -6,7 +6,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import VideoGif from "@/public/work-is-almost-over-happy.gif";
 import { CalendarCheck2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -20,11 +19,6 @@ export default function OnboardingrouteTwo() {
           <CardDescription>
             We have to now connect your calendar to your account.
           </CardDescription>
-          <Image
-            src={VideoGif}
-            alt="Almost finished gif"
-            className="w-full rounded-lg"
-          />
         </CardHeader>
         <CardContent>
           <Button asChild className="w-full">
